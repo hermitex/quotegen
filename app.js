@@ -58,18 +58,17 @@ const getRandomQuoteFromDB = (quotes) => {
 const displayMultipleQuotes = (num, quotes) => {
   let output = "";
   while (num) {
-    console.log(num);
-    output += `<p>${
-      quotes[Math.floor(Math.random() * quotes.length)].quote
-    }</p>`;
+    let randomNum = Math.floor(Math.random() * quotes.length);
+    output += `<p>${quotes[randomNum].quote}  <small class='d-block'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
+   
+    `;
     num--;
-    console.log(output);
+    childElement.innerHTML = output;
+    console.log(childElement);
   }
 };
 
 const displayQuote = (quote) => {
-  // console.log(quote.img);
-  avatar.src = `${quote.img}`;
   console.log(avatar);
   childElement.innerHTML = `<p style = 'font-size: 1.5rem'>${quote.quote}</p>`;
   authorName.textContent = `-${quote.authorFirstName} ${quote.authorSecondName}`;
