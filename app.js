@@ -3,7 +3,7 @@ import { QUOTES } from "./images/quotesDB.js";
 
 const childElement = document.querySelector(".childElement");
 const nextQuote = document.querySelector("#generate-quote");
-const authorName = document.querySelector("#author-name");
+const authorName = document.querySelector(".author-name");
 const quoteCategory = document.querySelector("#quote-genre");
 const numberOfQuotes = document.querySelector("#number-of-quotes");
 const prentElement = document.querySelector("#prentElement");
@@ -59,7 +59,7 @@ const displayMultipleQuotes = (num, quotes) => {
   let output = "";
   while (num) {
     let randomNum = Math.floor(Math.random() * quotes.length);
-    output += `<p>${quotes[randomNum].quote}  <small class='d-block'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
+    output += `<p>${quotes[randomNum].quote}  <small class='d-block my-0'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
    
     `;
     num--;
@@ -70,7 +70,7 @@ const displayMultipleQuotes = (num, quotes) => {
 
 const displayQuote = (quote) => {
   console.log(avatar);
-  childElement.innerHTML = `<p style = 'font-size: 1.5rem'>${quote.quote}</p>`;
+  childElement.innerHTML = `<p style = 'font-size: 1.5rem'>${quote.quote}</p> <small class='d-block'>-${quote.authorFirstName} ${quote.authorSecondName}</small>`;
   authorName.textContent = `-${quote.authorFirstName} ${quote.authorSecondName}`;
 };
 

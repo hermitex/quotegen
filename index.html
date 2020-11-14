@@ -41,24 +41,18 @@
 
 
 
-    <div class="container position-relative  d-flex justify-content-md-center align-items-center vh-100">
-        <div id="parentElement" class="card p-3 w-100 m-auto min-height-75 max-height-100">
+    <div style="overflow-y: auto;" class="container  d-flex justify-content-md-center align-items-center vh-100">
+        <div id="parentElement" class="card p-3 w-100 m-auto" style="min-height: 25rem;">
             <span><img id="avatar" src="" alt="" width="40rem" class="m-auto rounded"></span>
-            <div id="quote " class="childElement h-100">
-
-                <p style="font-size: 1.5rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-                    facere
-                    vero
-                    consequuntur
-                    voluptate velit nihil praesentium ullam provident dolorem perferendis!</p>
-
-            </div>
-            <small id="author-name" class="float-right my-3">-Jimmy Tiberius</small>
-            <div id="generate-quote" class=" m-auto">
-                <button class="p-3">Next Quote</button>
+            <div id="quote " class="childElement h-auto ">
+                <p style="font-size: 1.5rem; " class="d-block">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Inventore, nemo.
+                </p>
+                <small id="author-name" class="d-block my-0 float-right author-name">-Tiberius</small>
             </div>
 
-
+            <button id="generate-quote" class="p-3 d-block w-25 m-auto">Next Quote</button>
         </div>
     </div>
 
