@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>QuoteGen</title>
 </head>
 
-<body id="body">
+<body id="body" style="overflow-y: auto;">
 
     <nav class="navbar  navbar-light  bg-light" style="min-width: 75vw;">
 
         <div class="navbarSupportedContent ">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <select class="custom-select w-auto">
+                    <select id="options" class="custom-select w-auto">
                         <option selected>Select Genre</option>
-                        <option value="1">Love</option>
-                        <option value="2">Business</option>
-                        <option value="3">Sorrow</option>
-                        <option value="4">Happiness</option>
-                        <option value="5">Religion</option>
+                        <option value="">Love</option>
+                        <option value="">Business</option>
+                        <option value="">Life</option>
+                        <option value="">Happiness</option>
+                        <option value="">Wisdom</option>
                     </select>
                 </li>
             </ul>
@@ -41,18 +41,16 @@
 
 
 
-    <div style="overflow-y: auto;" class="container  d-flex justify-content-md-center align-items-center vh-100">
-        <div id="parentElement" class="card p-3 w-100 m-auto" style="min-height: 25rem;">
-            <span><img id="avatar" src="" alt="" width="40rem" class="m-auto rounded"></span>
-            <div id="quote " class="childElement h-auto ">
+    <div class="container  d-flex justify-content-md-center align-items-center vh-100">
+        <div id="parentElement" class="card p-3 w-100 m-auto h-md-75" style="min-height: 15rem;">
+            <div id="quote " class="childElement h-auto w-100 m-auto">
                 <p style="font-size: 1.5rem; " class="d-block">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Inventore, nemo.
                 </p>
-                <small id="author-name" class="d-block my-0 float-right author-name">-Tiberius</small>
+                <small id="author-name" class="d-block  my-0  author-name">-Tiberius</small>
+                <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
             </div>
-
-            <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
         </div>
     </div>
 

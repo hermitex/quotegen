@@ -2,12 +2,13 @@ const apiUrl = "https://api.pexels.com/v1/search?query=universe&maxResults=5";
 import { QUOTES } from "./images/quotesDB.js";
 
 const childElement = document.querySelector(".childElement");
-const nextQuote = document.querySelector("#generate-quote");
 const authorName = document.querySelector(".author-name");
 const quoteCategory = document.querySelector("#quote-genre");
 const numberOfQuotes = document.querySelector("#number-of-quotes");
-const prentElement = document.querySelector("#prentElement");
+const parentElement = document.querySelector("#parentElement");
 const avatar = document.querySelector("#avatar");
+const options = document.querySelectorAll("#options");
+const nextQuote = document.querySelector("#generate-quote");
 
 const getPhotoFromPexel = () => {
   fetch(apiUrl, {
@@ -30,29 +31,14 @@ const getPhotoFromPexel = () => {
 // Random Quote
 const url = "https://quote-garden.herokuapp.com/api/v2/quotes/random";
 
-// Quotes By Specific Author
-
-// const fetchQuote = async () => {
-//   let loader = `
-//      <div class="loader-dots text-success">
-//         Loading
-//     </div>
-// `;
-
-//   quoteContainer.innerHTML = loader;
-//   try {
-//     const response = await fetch(url);
-//     const data = await response.json();
-//     displayQuote(data.quote);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-
 const getRandomQuoteFromDB = (quotes) => {
-  const randomNumber = Math.floor(Math.random() * quotes.length);
-  const randomQuote = quotes[randomNumber];
-  displayQuote(randomQuote);
+  $(document).ready(function () {
+    $("#parentElement").on("click", "button", () => {
+      const randomNumber = Math.floor(Math.random() * quotes.length);
+      const randomQuote = quotes[randomNumber];
+      displayQuote(randomQuote);
+    });
+  });
 };
 
 const displayMultipleQuotes = (num, quotes) => {
@@ -60,25 +46,43 @@ const displayMultipleQuotes = (num, quotes) => {
   while (num) {
     let randomNum = Math.floor(Math.random() * quotes.length);
     output += `<p>${quotes[randomNum].quote}  <small class='d-block my-0'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
-   
     `;
     num--;
-    childElement.innerHTML = output;
-    console.log(childElement);
+    parentElement.innerHTML = output;
   }
 };
 
 const displayQuote = (quote) => {
-  console.log(avatar);
-  childElement.innerHTML = `<p style = 'font-size: 1.5rem'>${quote.quote}</p> <small class='d-block'>-${quote.authorFirstName} ${quote.authorSecondName}</small>`;
-  authorName.textContent = `-${quote.authorFirstName} ${quote.authorSecondName}`;
+  parentElement.innerHTML = `<div id="quote " class="childElement h-auto w-100 m-auto">
+  <p style = 'font-size: 1.5rem'>${quote.quote}</p> 
+  <small class='d-block'>-${quote.authorFirstName} ${quote.authorSecondName}</small>
+ <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
+  </div>  
+  `;
 };
 
 numberOfQuotes.addEventListener("change", (e) => {
   displayMultipleQuotes(parseInt(e.target.value), QUOTES);
 });
 
-nextQuote.addEventListener("click", () => {
-  getRandomQuoteFromDB(QUOTES);
+options.forEach((option) => {
+  option.addEventListener("change", (e) => {
+    findQuoteGenre(e.target.value);
+  });
 });
+
+const findQuoteGenre = (genre) => {
+  let selectedQuoteGenre = QUOTES.filter(
+    (quote) => quote.genre === genre.trim()
+  );
+  displayQuotesOfSelectedGenre(selectedQuoteGenre);
+};
+
+const displayQuotesOfSelectedGenre = (selectedQuoteArr) => {
+  // selectedQuoteArr.forEach((quote) => displayQuote(quote));
+};
+
+// nextQuote.addEventListener("click", () => {
+getRandomQuoteFromDB(QUOTES);
+// });
 getPhotoFromPexel();

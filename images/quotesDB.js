@@ -6,6 +6,7 @@ export const QUOTES = [
       "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     authorFirstName: "Mahatma",
     authorSecondName: "Gandhi",
+    genre: "life",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ export const QUOTES = [
     quote: "That which does not kill us makes us stronger.",
     authorFirstName: "Friedrich",
     authorSecondName: "Nietzsche",
+    genre: "life",
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ export const QUOTES = [
       "Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.",
     authorFirstName: "Bernard",
     authorSecondName: "M. Baruch",
+    genre: "life",
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ export const QUOTES = [
     quote: "We must not allow other people’s limited perceptions to define us.",
     authorFirstName: "Virginia",
     authorSecondName: "Satir",
+    genre: "life",
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ export const QUOTES = [
     quote: "Do what you can, with what you have, where you are.",
     authorFirstName: "Theodore",
     authorSecondName: "Roosevelt",
+    genre: "life",
   },
   {
     id: 6,
@@ -42,6 +47,7 @@ export const QUOTES = [
     quote: "Be yourself; everyone else is already taken.",
     authorFirstName: "Oscar",
     authorSecondName: "Wilde",
+    genre: "life",
   },
   {
     id: 7,
@@ -49,6 +55,7 @@ export const QUOTES = [
     quote: "This above all: to thine own self be true.",
     authorFirstName: "William",
     authorSecondName: "Shakespeare",
+    genre: "life",
   },
   {
     id: 8,
@@ -56,6 +63,7 @@ export const QUOTES = [
     quote: "If you cannot do great things, do small things in a great way.",
     authorFirstName: "Napoleon",
     authorSecondName: "Hill",
+    genre: "life",
   },
   {
     id: 9,
@@ -63,6 +71,7 @@ export const QUOTES = [
     quote: "If opportunity doesn’t knock, build a door.",
     authorFirstName: "Milton",
     authorSecondName: "Berle",
+    genre: "wisdom",
   },
   {
     id: 10,
@@ -71,6 +80,7 @@ export const QUOTES = [
       "Wise men speak because they have something to say; fools because they have to say something.",
     authorFirstName: "Plato",
     authorSecondName: " ",
+    genre: "wisdom",
   },
   {
     id: 11,
@@ -78,6 +88,7 @@ export const QUOTES = [
     quote: "Strive not to be a success, but rather to be of value.",
     authorFirstName: "Albert",
     authorSecondName: "Einstein",
+    genre: "wisdom",
   },
   {
     id: 12,
@@ -86,6 +97,7 @@ export const QUOTES = [
       "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
     authorFirstName: "John",
     authorSecondName: "Wooden",
+    genre: "life",
   },
   {
     id: 13,
@@ -94,6 +106,7 @@ export const QUOTES = [
       "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
     authorFirstName: "Mark",
     authorSecondName: "Twain",
+    genre: "wisdom",
   },
   {
     id: 14,
@@ -101,6 +114,7 @@ export const QUOTES = [
     quote: "I haven’t failed. I’ve just found 10,000 ways that won’t work.",
     authorFirstName: "Thomas",
     authorSecondName: "Edison",
+    genre: "life",
   },
   {
     id: 15,
@@ -108,6 +122,7 @@ export const QUOTES = [
     quote: "A journey of a thousand leagues begins beneath one’s feet.",
     authorFirstName: "Lao",
     authorSecondName: "Tzu",
+    genre: "wisdom",
   },
   {
     id: 16,
@@ -115,6 +130,7 @@ export const QUOTES = [
     quote: "Do not let what you cannot do interfere with what you can do.",
     authorFirstName: "John",
     authorSecondName: "Wooden",
+    genre: "life",
   },
   {
     id: 17,
@@ -123,6 +139,7 @@ export const QUOTES = [
       "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     authorFirstName: "Maya",
     authorSecondName: "Angelou",
+    genre: "life",
   },
   {
     id: 18,
@@ -130,6 +147,7 @@ export const QUOTES = [
     quote: "Either you run the day, or the day runs you",
     authorFirstName: "Jim",
     authorSecondName: "Rohn",
+    genre: "life",
   },
   {
     id: 19,
@@ -137,6 +155,7 @@ export const QUOTES = [
     quote: "Life shrinks or expands in proportion to one’s courage.",
     authorFirstName: "Anais",
     authorSecondName: "Nin",
+    genre: "life",
   },
   {
     id: 20,
@@ -144,6 +163,7 @@ export const QUOTES = [
     quote: "You must be the change you wish to see in the world.",
     authorFirstName: "Mahatma",
     authorSecondName: "Gandhi",
+    genre: "life",
   },
   {
     id: 21,
@@ -151,6 +171,7 @@ export const QUOTES = [
     quote: "What you do speaks so loudly that I cannot hear what you say.",
     authorFirstName: "Ralph",
     authorSecondName: "Waldo Emerson",
+    genre: "wisdom",
   },
   {
     id: 22,
@@ -159,6 +180,7 @@ export const QUOTES = [
       "The difference between ordinary and extraordinary is that little extra.",
     authorFirstName: "Jimmy",
     authorSecondName: "Johnson",
+    genre: "life",
   },
   {
     id: 23,
@@ -166,6 +188,7 @@ export const QUOTES = [
     quote: "Believe and act as if it were impossible to fail.",
     authorFirstName: "Charles",
     authorSecondName: "Kettering",
+    genre: "life",
   },
   {
     id: 24,
@@ -173,6 +196,7 @@ export const QUOTES = [
     quote: "The best way to predict the future is to invent it.",
     authorFirstName: "Alan",
     authorSecondName: "Kay",
+    genre: "wisdom",
   },
   {
     id: 25,
@@ -181,6 +205,7 @@ export const QUOTES = [
       "If I am not for myself, who is for me? And if I am only for myself, what am I? And if not now, when?",
     authorFirstName: "Rabbi",
     authorSecondName: "Hillel",
+    genre: "wisdom",
   },
   {
     id: 26,
@@ -188,6 +213,7 @@ export const QUOTES = [
     quote: "Everything has beauty, but not everyone can see.",
     authorFirstName: "Confucius",
     authorSecondName: " ",
+    genre: "life",
   },
   {
     id: 27,
@@ -195,6 +221,7 @@ export const QUOTES = [
     quote: "Believe you can and you’re halfway there.",
     authorFirstName: "Theodore",
     authorSecondName: "Roosevelt",
+    genre: "life",
   },
   {
     id: 28,
@@ -203,6 +230,7 @@ export const QUOTES = [
       "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
     authorFirstName: "Anne",
     authorSecondName: "Frank",
+    genre: "greatness",
   },
   {
     id: 29,
@@ -211,6 +239,7 @@ export const QUOTES = [
       "Imagination is everything. It is the preview of life’s coming attractions.",
     authorFirstName: "Albert",
     authorSecondName: "Einstein",
+    genre: "wisdom",
   },
   {
     id: 30,
@@ -218,6 +247,7 @@ export const QUOTES = [
     quote: "Change your thoughts and you change your world.",
     authorFirstName: "Norman",
     authorSecondName: "Vincent",
+    genre: "wisdom",
   },
   {
     id: 31,
@@ -226,6 +256,7 @@ export const QUOTES = [
       "Happiness is not something ready made. It comes from your own actions.",
     authorFirstName: "Dalai",
     authorSecondName: "Lama",
+    genre: "happiness",
   },
   {
     id: 32,
@@ -233,6 +264,7 @@ export const QUOTES = [
     quote: "Remember that happiness is a way of travel, not a destination.",
     authorFirstName: "Roy",
     authorSecondName: "M. Goodman",
+    genre: "happiness",
   },
   {
     id: 33,
@@ -241,6 +273,7 @@ export const QUOTES = [
       "Too many of us are not living our dreams because we are living our fears.",
     authorFirstName: "Les",
     authorSecondName: "Brown",
+    genre: "happiness",
   },
   {
     id: 34,
@@ -248,6 +281,7 @@ export const QUOTES = [
     quote: "If you want to lift yourself up, lift up someone else.",
     authorFirstName: "Booker",
     authorSecondName: "T. Washington",
+    genre: "wisdom",
   },
   {
     id: 35,
@@ -255,6 +289,7 @@ export const QUOTES = [
     quote: "You miss 100% of the shots you don’t take.",
     authorFirstName: "Wayne",
     authorSecondName: "Gretzky",
+    genre: "wisdom",
   },
   {
     id: 36,
@@ -262,6 +297,7 @@ export const QUOTES = [
     quote: "It is never too late to be what you might have been.",
     authorFirstName: "George",
     authorSecondName: "Eliot",
+    genre: "wisdom",
   },
   {
     id: 37,
@@ -269,6 +305,7 @@ export const QUOTES = [
     quote: "A person who never made a mistake never tried anything new.",
     authorFirstName: "Albert",
     authorSecondName: "Einstein",
+    genre: "wisdom",
   },
   {
     id: 38,
@@ -277,6 +314,7 @@ export const QUOTES = [
       "The person who says it cannot be done should not interrupt the person who is doing it.",
     authorFirstName: "Chinese",
     authorSecondName: "Proverb",
+    genre: "wisdom",
   },
   {
     id: 39,
@@ -285,6 +323,7 @@ export const QUOTES = [
       "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
     authorFirstName: "Eleanor",
     authorSecondName: "Roosevelt",
+    genre: "wisdom",
   },
   {
     id: 40,
@@ -292,6 +331,7 @@ export const QUOTES = [
     quote: "You only live once, but if you do it right, once is enough.",
     authorFirstName: "Mae",
     authorSecondName: "West",
+    genre: "life",
   },
   {
     id: 41,
@@ -299,6 +339,7 @@ export const QUOTES = [
     quote: "If you tell the truth, you don’t have to remember anything.",
     authorFirstName: "Mark",
     authorSecondName: "Twain",
+    genre: "wisdom",
   },
   {
     id: 42,
@@ -307,6 +348,7 @@ export const QUOTES = [
       "The only thing worse than being blind is having sight but no vision.",
     authorFirstName: "Helen",
     authorSecondName: "Keller",
+    genre: "wisdom",
   },
   {
     id: 43,
@@ -314,6 +356,7 @@ export const QUOTES = [
     quote: "The only thing we have to fear is fear itself.",
     authorFirstName: "Franklin",
     authorSecondName: "D. Roosevelt",
+    genre: "fear",
   },
   {
     id: 44,
@@ -322,6 +365,7 @@ export const QUOTES = [
       "To live is the rarest thing in the world. Most people exist, that is all.",
     authorFirstName: "Oscar",
     authorSecondName: "Wilde",
+    genre: "life",
   },
   {
     id: 45,
@@ -330,6 +374,7 @@ export const QUOTES = [
       "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
     authorFirstName: "Martin",
     authorSecondName: "Luther King, Jr.",
+    genre: "love",
   },
   {
     id: 46,
@@ -338,6 +383,7 @@ export const QUOTES = [
       "If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
     authorFirstName: "Oprah",
     authorSecondName: "Winfrey",
+    genre: "life",
   },
   {
     id: 47,
@@ -345,6 +391,7 @@ export const QUOTES = [
     quote: "Remember no one can make you feel inferior without your consent.",
     authorFirstName: "Eleanor",
     authorSecondName: "Roosevelt",
+    genre: "wisdom",
   },
   {
     id: 48,
@@ -353,6 +400,7 @@ export const QUOTES = [
       "For every minute you are angry you lose sixty seconds of happiness.",
     authorFirstName: "Ralph",
     authorSecondName: "Waldo Emerson",
+    genre: "happiness",
   },
   {
     id: 49,
@@ -361,6 +409,7 @@ export const QUOTES = [
       "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
     authorFirstName: "Lao",
     authorSecondName: "Tzu",
+    genre: "love",
   },
   {
     id: 50,
@@ -369,6 +418,7 @@ export const QUOTES = [
       "There are two ways of spreading light: to be the candle or the mirror that reflects it.",
     authorFirstName: "Edith",
     authorSecondName: "Wharton",
+    genre: "wisdom",
   },
   {
     id: 51,
@@ -377,6 +427,7 @@ export const QUOTES = [
       "The road to success and the road to failure are almost exactly the same.",
     authorFirstName: "Colin",
     authorSecondName: "R. Davis",
+    genre: "life",
   },
   {
     id: 52,
@@ -385,6 +436,7 @@ export const QUOTES = [
       "Motivation is a fire from within. If someone else tries to light that fire under you, chances are it will burn very briefly.",
     authorFirstName: "Stephen",
     authorSecondName: "R. Covey",
+    genre: "wisodm",
   },
   {
     id: 53,
@@ -393,6 +445,7 @@ export const QUOTES = [
       "In three words I can sum up everything I’ve learned about life: It goes on.",
     authorFirstName: "Robert",
     authorSecondName: "Frost",
+    genre: "life",
   },
   {
     id: 54,
@@ -401,6 +454,7 @@ export const QUOTES = [
       "Self-reverence, self-knowledge, self control — these three alone lead to power.",
     authorFirstName: "Alfred,",
     authorSecondName: "Lord Tennyson",
+    genre: "wisdom",
   },
   {
     id: 55,
@@ -409,6 +463,7 @@ export const QUOTES = [
       "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.",
     authorFirstName: "Carl",
     authorSecondName: "Bard",
+    genre: "wisdom",
   },
   {
     id: 56,
@@ -417,6 +472,7 @@ export const QUOTES = [
       "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.",
     authorFirstName: "Henry",
     authorSecondName: "Ford",
+    genre: "life",
   },
   {
     id: 57,
@@ -424,6 +480,7 @@ export const QUOTES = [
     quote: "He who angers you conquers you.",
     authorFirstName: "Elizabeth",
     authorSecondName: "Kenny",
+    genre: "anger",
   },
   {
     id: 58,
@@ -431,6 +488,7 @@ export const QUOTES = [
     quote: "Beauty, without expression, tires.",
     authorFirstName: "Ralph",
     authorSecondName: "Waldo Emerson",
+    genre: "beauty",
   },
   {
     id: 59,
@@ -439,6 +497,7 @@ export const QUOTES = [
       "The secret of business is to know something that nobody else knows.",
     authorFirstName: "Aristotle",
     authorSecondName: "Onassis",
+    genre: "business",
   },
   {
     id: 60,
@@ -447,6 +506,7 @@ export const QUOTES = [
       "The greatest discovery of all time is that a person can change his future by merely changing his attitude.",
     authorFirstName: "Oprah",
     authorSecondName: "Winfrey",
+    genre: "life",
   },
   {
     id: 61,
@@ -455,6 +515,7 @@ export const QUOTES = [
       "We cannot always build the future of our youth, but we can build our youth for the future.",
     authorFirstName: "Franklin",
     authorSecondName: "D. Roosevelt",
+    genre: "life",
   },
   {
     id: 62,
@@ -462,6 +523,7 @@ export const QUOTES = [
     quote: "It takes courage to grow up and turn out to be who you really are.",
     authorFirstName: "E.E.",
     authorSecondName: "Cummings",
+    genre: "life",
   },
   {
     id: 63,
@@ -470,6 +532,7 @@ export const QUOTES = [
       "In this world nothing can be said to be certain, except death and taxes.",
     authorFirstName: "Benjamin",
     authorSecondName: "Franklin",
+    genre: "wisdom",
   },
   {
     id: 64,
@@ -478,6 +541,7 @@ export const QUOTES = [
       "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
     authorFirstName: "Aristotle",
     authorSecondName: " ",
+    genre: "wisdom",
   },
   {
     id: 65,
@@ -485,6 +549,7 @@ export const QUOTES = [
     quote: "A happy family is but an earlier heaven.",
     authorFirstName: " George",
     authorSecondName: "Bernard Shaw",
+    genre: "family",
   },
   {
     id: 66,
@@ -493,6 +558,7 @@ export const QUOTES = [
       "Don’t walk in front of me, I may not follow. Don’t walk behind me, I may not lead. Walk beside me and be my friend.",
     authorFirstName: "Albert",
     authorSecondName: "Camus",
+    genre: "friendship",
   },
   {
     id: 67,
@@ -501,6 +567,7 @@ export const QUOTES = [
       "Courage doesn’t always roar. Sometimes courage is the little voice at the end of the day that says ‘I’ll try again tomorrow.",
     authorFirstName: "Mary",
     authorSecondName: "Anne Radmacher",
+    genre: "resillience",
   },
   {
     id: 68,
@@ -509,6 +576,7 @@ export const QUOTES = [
       "Education is like a double-edged sword. It may be turned to dangerous uses if it is not properly handled.",
     authorFirstName: "Wu",
     authorSecondName: "Ting-Fang",
+    genre: "education",
   },
   {
     id: 69,
@@ -517,6 +585,7 @@ export const QUOTES = [
       "Walking with a friend in the dark is better than walking alone in the light.",
     authorFirstName: "Helen",
     authorSecondName: "Keller",
+    genre: "friendship",
   },
   {
     id: 70,
@@ -524,6 +593,7 @@ export const QUOTES = [
     quote: "Happiness is not a goal; it is a by-product.",
     authorFirstName: "Eleanor",
     authorSecondName: "Roosevelt",
+    genre: "happiness",
   },
   {
     id: 71,
@@ -531,6 +601,7 @@ export const QUOTES = [
     quote: "Always forgive your enemies; nothing annoys them so much.",
     authorFirstName: "Oscar",
     authorSecondName: "Wilde",
+    genre: "forgiveness",
   },
   {
     id: 72,
@@ -539,6 +610,7 @@ export const QUOTES = [
       "As a well-spent day brings happy sleep, so a life well spent brings happy death.",
     authorFirstName: "Leonardo",
     authorSecondName: "da Vinci",
+    genre: "happiness",
   },
   {
     id: 73,
@@ -553,6 +625,7 @@ export const QUOTES = [
     quote: "Love is, above all else, the gift of oneself.",
     authorFirstName: "Jean",
     authorSecondName: "Anouilh",
+    genre: "love",
   },
   {
     id: 75,
@@ -560,6 +633,7 @@ export const QUOTES = [
     quote: "Music in the soul can be heard by the universe.",
     authorFirstName: "Lao",
     authorSecondName: "Tzu",
+    genre: "music",
   },
   {
     id: 76,
@@ -567,6 +641,7 @@ export const QUOTES = [
     quote: "Peace begins with a smile.",
     authorFirstName: "Mother",
     authorSecondName: "Teresa",
+    genre: "wisdom",
   },
   {
     id: 77,
@@ -575,6 +650,7 @@ export const QUOTES = [
       "Success is liking yourself, liking what you do, and liking how you do it.",
     authorFirstName: "Maya",
     authorSecondName: "Angelou",
+    genre: "wisdom",
   },
   {
     id: 78,
@@ -582,6 +658,7 @@ export const QUOTES = [
     quote: "The only true wisdom is knowing that you know nothing.",
     authorFirstName: "Socrates",
     authorSecondName: " ",
+    genre: "wisdom",
   },
   {
     id: 79,
@@ -590,6 +667,7 @@ export const QUOTES = [
       "Courage is what it takes to stand up and speak. Courage is also what it takes to sit down and listen.",
     authorFirstName: "Winston",
     authorSecondName: "Churchill",
+    genre: "courage",
   },
   {
     id: 80,
@@ -597,6 +675,7 @@ export const QUOTES = [
     quote: "A friend is someone who knows all about you and still loves you.",
     authorFirstName: "Elbert",
     authorSecondName: "Hubbard",
+    genre: "friendship",
   },
   {
     id: 81,
@@ -604,6 +683,7 @@ export const QUOTES = [
     quote: "Never leave that till tomorrow which you can do today.",
     authorFirstName: "Benjamin",
     authorSecondName: "Franklin",
+    genre: "wisdom",
   },
   {
     id: 82,
@@ -612,6 +692,7 @@ export const QUOTES = [
       "If you don’t make mistakes, you’re not working on hard enough problems.",
     authorFirstName: "Frank",
     authorSecondName: "Wilczek",
+    genre: "wisdom",
   },
   {
     id: 83,
@@ -620,6 +701,7 @@ export const QUOTES = [
       "We must learn to live together as brothers or perish together as fools.",
     authorFirstName: "Martin",
     authorSecondName: "Luther King, Jr.",
+    genre: "wisdom",
   },
   {
     id: 84,
@@ -628,6 +710,7 @@ export const QUOTES = [
       "Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot.",
     authorFirstName: "Unknown",
     authorSecondName: " ",
+    genre: "life",
   },
   {
     id: 85,
@@ -636,6 +719,7 @@ export const QUOTES = [
       "When you judge another, you do not define them; you define yourself.",
     authorFirstName: "Wayne",
     authorSecondName: "Dyer",
+    genre: "judgement",
   },
   {
     id: 86,
@@ -644,6 +728,7 @@ export const QUOTES = [
       "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
     authorFirstName: "Thomas",
     authorSecondName: "Edison",
+    genre: "wisdom",
   },
   {
     id: 87,
@@ -652,6 +737,7 @@ export const QUOTES = [
       "Love me when I least deserve it, because that’s when I really need it.",
     authorFirstName: "Swedish",
     authorSecondName: "Proverb",
+    genre: "love",
   },
   {
     id: 88,
@@ -660,6 +746,7 @@ export const QUOTES = [
       "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.",
     authorFirstName: "Helen",
     authorSecondName: "Keller",
+    genre: "beauty",
   },
   {
     id: 89,
@@ -668,6 +755,7 @@ export const QUOTES = [
       "If you want to test your memory, try to recall what you were worrying about one year ago today.",
     authorFirstName: "E. Joseph",
     authorSecondName: "Cossman",
+    genre: "wisdom",
   },
   {
     id: 90,
@@ -676,6 +764,7 @@ export const QUOTES = [
       "The real opportunity for success lies within the person and not in the job.",
     authorFirstName: "Zig",
     authorSecondName: "Ziglar",
+    genre: "wisdom",
   },
   {
     id: 91,
@@ -684,6 +773,7 @@ export const QUOTES = [
       "It takes a great deal of courage to stand up to your enemies, but even more to stand up to your friends.",
     authorFirstName: " J. K.",
     authorSecondName: "Rowling",
+    genre: "friendship",
   },
   {
     id: 92,
@@ -691,6 +781,7 @@ export const QUOTES = [
     quote: "Defeat is not bitter unless you swallow it.",
     authorFirstName: "Joe",
     authorSecondName: "Clark",
+    genre: "wisdom",
   },
   {
     id: 93,
@@ -698,6 +789,7 @@ export const QUOTES = [
     quote: "A mind is like a parachute. It doesn’t work if it isn’t open.",
     authorFirstName: "Frank",
     authorSecondName: "Zappa",
+    genre: "wisdom",
   },
   {
     id: 94,
@@ -706,6 +798,7 @@ export const QUOTES = [
       "The man who removes a mountain begins by carrying away small stones.",
     authorFirstName: "Chinese",
     authorSecondName: "Proverbs",
+    genre: "wisdom",
   },
   {
     id: 95,
@@ -714,6 +807,7 @@ export const QUOTES = [
       "When you are totally at peace with yourself, nothing can shake you.",
     authorFirstName: "Deepam",
     authorSecondName: "Chatterjee",
+    genre: "life",
   },
   {
     id: 96,
@@ -722,6 +816,7 @@ export const QUOTES = [
       "Be a first rate version of yourself, not a second rate version of someone else.",
     authorFirstName: "Judy",
     authorSecondName: "Garland",
+    genre: "life",
   },
   {
     id: 97,
@@ -729,6 +824,7 @@ export const QUOTES = [
     quote: "Your worth consists in what you are and not in what you have.",
     authorFirstName: "Thomas",
     authorSecondName: "Edison",
+    genre: "life",
   },
   {
     id: 98,
@@ -737,6 +833,7 @@ export const QUOTES = [
       "Others can stop you temporarily – you are the only one who can do it permanently.",
     authorFirstName: "Zig",
     authorSecondName: "Ziglar",
+    genre: "life",
   },
   {
     id: 99,
@@ -744,6 +841,7 @@ export const QUOTES = [
     quote: "Life has no limitations, except the ones you make.",
     authorFirstName: "Les",
     authorSecondName: "Brown",
+    genre: "life",
   },
   {
     id: 100,
@@ -751,5 +849,6 @@ export const QUOTES = [
     quote: "Peace comes from within. Do not seek it without.",
     authorFirstName: "Muhammad",
     authorSecondName: "Ali",
+    genre: "life",
   },
 ];
