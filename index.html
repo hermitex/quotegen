@@ -43,17 +43,24 @@
 
 
 
-    <div class="container  d-flex justify-content-md-center align-items-center vh-100">
+    <div class="  d-flex justify-content-md-center align-items-center vh-100">
+        <div id="flip-card" class="container">
+            <div id="parentElement" class="flip-card-inner card p-3 w-100 m-auto h-md-75" style="min-height: 15rem;">
 
-        <div id="parentElement" class="card p-3 w-100 m-auto h-md-75" style="min-height: 15rem;">
-            <img src="/images/pexels-alex-andrews-3805983.jpg" alt="" width="20rem">
-            <div id="quote " class="childElement h-auto w-100 m-auto">
-                <p style="font-size: 1.5rem; " class="d-block">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Inventore, nemo.
-                </p>
-                <small id="author-name" class="d-block  my-0  author-name">-Tiberius</small>
-                <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
+                <div id="quote " class="flip-card-front childElement h-auto w-100 m-auto">
+                    <p style="font-size: 1.5rem; " class="d-block">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Inventore, nemo.
+                    </p>
+                    <small id="author-name" class="d-block  my-0  author-name">-Tiberius</small>
+                    <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
+                </div>
+                <div class="flip-card-back d-block m-auto">
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                    <img src="./images/personalities/Plato.jpg" alt="" width="40rem">
+                </div>
             </div>
         </div>
     </div>

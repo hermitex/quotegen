@@ -52,7 +52,6 @@ $(document).ready(() => {
     let ImageUrl = IMAGES[Math.floor(Math.random() * IMAGES.length)].url;
     $("img").src = ImageUrl;
     $("body").css(`background-image`, `url(${ImageUrl})`);
-    console.log(document.querySelector("body"), ImageUrl);
   };
 
   numberOfQuotes.addEventListener("change", (e) => {
@@ -69,6 +68,10 @@ $(document).ready(() => {
   const displayQuotesOfSelectedGenre = (selectedQuoteArr) => {
     console.log(selectedQuoteArr);
   };
+
+  $("#flip-card.container").click(() => {
+    console.log("clicked");
+  });
 
   getRandomQuoteFromDB(QUOTES);
 });
