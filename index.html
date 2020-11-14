@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="index.css">
+
     <title>QuoteGen</title>
 </head>
 
@@ -19,11 +21,11 @@
                 <li class="nav-item">
                     <select id="options" class="custom-select w-auto">
                         <option selected>Select Genre</option>
-                        <option value="">Love</option>
-                        <option value="">Business</option>
-                        <option value="">Life</option>
-                        <option value="">Happiness</option>
-                        <option value="">Wisdom</option>
+                        <option value="love">Love</option>
+                        <option value="business">Business</option>
+                        <option value="life">Life</option>
+                        <option value="happiness">Happiness</option>
+                        <option value="wisdom">Wisdom</option>
                     </select>
                 </li>
             </ul>
@@ -42,7 +44,9 @@
 
 
     <div class="container  d-flex justify-content-md-center align-items-center vh-100">
+
         <div id="parentElement" class="card p-3 w-100 m-auto h-md-75" style="min-height: 15rem;">
+            <img src="/images/pexels-alex-andrews-3805983.jpg" alt="" width="20rem">
             <div id="quote " class="childElement h-auto w-100 m-auto">
                 <p style="font-size: 1.5rem; " class="d-block">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -64,6 +68,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./app.js" type="module"></script>
 </body>
 

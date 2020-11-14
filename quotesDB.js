@@ -852,3 +852,21 @@ export const QUOTES = [
     genre: "life",
   },
 ];
+
+export const IMAGES = [
+  {
+    id: 1,
+    url: "./images/personalities/pexels-alex-andrews-3805983.jpg",
+    genre: "universe",
+  },
+  {
+    id: 2,
+    url: "./images/personalities/pexels-felix-mittermeier-956981.jpg",
+    genre: "universe",
+  },
+  {
+    id: 3,
+    url: "./images/personalities/pexels-pixabay-33688.jpg",
+    genre: "universe",
+  },
+];
