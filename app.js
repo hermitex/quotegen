@@ -35,10 +35,10 @@ $(document).ready(() => {
     num++;
     while (num) {
       let randomNum = Math.floor(Math.random() * quotes.length);
-      output += `<p>${quotes[randomNum].quote}  <small class='d-block my-0'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
+      output += `<p style = 'font-size: 1rem'>${quotes[randomNum].quote}  <small style="font-style: italic; font-size: 0.75rem" class="d-block">-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
     `;
       num--;
-      parentElement.innerHTML = `${output}<button id="generate-quote" class="p-3 d-block w-auto m-auto">Back</button>`;
+      parentElement.innerHTML = `${output}<button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-auto m-auto">Back</button>`;
     }
   };
 
@@ -74,7 +74,9 @@ $(document).ready(() => {
     console.log(selectedQuoteArr);
   };
 
-  $("#flip-card.container").click(() => {});
+  $("#flip-card.container").click(() => {
+    
+  });
 
   getRandomQuoteFromDB(QUOTES);
 });
