@@ -65,15 +65,23 @@ $(document).ready(() => {
   });
 
   const findQuoteGenre = (genre) => {
-    let selectedGenre = QUOTES.filter((quote) => quote.genre === genre);
-    $("#quote-title").text(`${genre} quotes (${selectedGenre.length})`);
-    getRandomQuoteFromDB(selectedGenre);
+    if (genre === "random") {
+      $("#quote-title").text(`${genre} quotes (${QUOTES.length})`);
+      console.log(QUOTES.length);
+      getRandomQuoteFromDB(QUOTES);
+    } else {
+      let selectedGenre = QUOTES.filter((quote) => quote.genre === genre);
+      $("#quote-title").text(`${genre} quotes (${selectedGenre.length})`);
+      getRandomQuoteFromDB(selectedGenre);
+    }
   };
   $("select").change(function (e) {
     findQuoteGenre(e.target.value);
   });
   const displayQuotesOfSelectedGenre = (selectedQuoteArr) => {
-    console.log(selectedQuoteArr);
+    selectedQuoteArr.forEach((quote) => {
+      displayQuote(quote);
+    });
   };
 
   $("#flip-card.container").click(() => {});
