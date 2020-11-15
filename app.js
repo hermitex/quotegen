@@ -32,6 +32,7 @@ $(document).ready(() => {
 
   const displayMultipleQuotes = (num, quotes) => {
     let output = "";
+    num++;
     while (num) {
       let randomNum = Math.floor(Math.random() * quotes.length);
       output += `<p>${quotes[randomNum].quote}  <small class='d-block my-0'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
