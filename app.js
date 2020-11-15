@@ -44,9 +44,9 @@ $(document).ready(() => {
 
   const displayQuote = (quote) => {
     parentElement.innerHTML = `<div id="quote " class="childElement h-auto w-100 m-auto">
-  <p style = 'font-size: 1.5rem'>${quote.quote}</p> 
-  <small class='d-block'>-${quote.authorFirstName} ${quote.authorSecondName}</small>
- <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
+  <p style = 'font-size: 1.5rem'>${quote.quote} <small style="font-style: italic; font-size: 1rem" class="d-block">-${quote.authorFirstName} ${quote.authorSecondName}</small></p> 
+  
+ <button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-auto m-auto">Next Quote</button>
   </div>  
   `;
     let ImageUrl = IMAGES[Math.floor(Math.random() * IMAGES.length)].url;
