@@ -35,19 +35,21 @@ $(document).ready(() => {
     num++;
     while (num) {
       let randomNum = Math.floor(Math.random() * quotes.length);
-      output += `<p style = 'font-size: 1rem'>${quotes[randomNum].quote}  <small style="font-style: italic; font-size: 0.75rem" class="d-block">-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
-    `;
+      output += `<blockquote id="quote" class="blockquote text-left childElement h-auto w-100 m-auto">
+      <p class="mb-0"style = 'font-size: 1.2rem'>${quotes[randomNum].quote}  </p> 
+      <footer class="mb-1 blockquote-footer">${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName} </footer>`;
+
       num--;
-      parentElement.innerHTML = `${output}<button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-auto m-auto">Back</button>`;
+      parentElement.innerHTML = `${output}<button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-25 m-auto">Back</button>`;
     }
   };
 
   const displayQuote = (quote) => {
-    parentElement.innerHTML = `<div id="quote " class="childElement h-auto w-100 m-auto">
-  <p style = 'font-size: 1.5rem'>${quote.quote} <small style="font-style: italic; font-size: 1rem" class="d-block">-${quote.authorFirstName} ${quote.authorSecondName}</small></p> 
-  
- <button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-auto m-auto">Next Quote</button>
-  </div>  
+    parentElement.innerHTML = `<blockquote id="quote" class="blockquote text-center childElement h-auto w-100 m-auto">
+    <p class="mb-0"style = 'font-size: 1.5rem'>${quote.quote} </p> 
+    <footer class="mb-1 blockquote-footer">${quote.authorFirstName} ${quote.authorSecondName} </footer>
+    <button type='button' id="generate-quote" class="btn btn-light p-3 d-block w-auto m-auto">Next Quote</button>
+  </blockquote>
   `;
     let ImageUrl = IMAGES[Math.floor(Math.random() * IMAGES.length)].url;
     $("img").src = ImageUrl;
@@ -74,9 +76,7 @@ $(document).ready(() => {
     console.log(selectedQuoteArr);
   };
 
-  $("#flip-card.container").click(() => {
-    
-  });
+  $("#flip-card.container").click(() => {});
 
   getRandomQuoteFromDB(QUOTES);
 });
