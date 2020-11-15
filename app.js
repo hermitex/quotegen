@@ -49,7 +49,6 @@ $(document).ready(() => {
  <button id="generate-quote" class="p-3 d-block w-auto m-auto">Next Quote</button>
   </div>  
   `;
-    console.log(IMAGES);
     let ImageUrl = IMAGES[Math.floor(Math.random() * IMAGES.length)].url;
     $("img").src = ImageUrl;
     $("body").css(`background-image`, `url(${ImageUrl})`);
@@ -65,6 +64,7 @@ $(document).ready(() => {
 
   const findQuoteGenre = (genre) => {
     let selectedGenre = QUOTES.filter((quote) => quote.genre === genre);
+    $("#quote-title").text(`${genre} quotes (${selectedGenre.length})`);
     getRandomQuoteFromDB(selectedGenre);
   };
   $("select").change(function (e) {
@@ -74,9 +74,7 @@ $(document).ready(() => {
     console.log(selectedQuoteArr);
   };
 
-  $("#flip-card.container").click(() => {
-    console.log("clicked");
-  });
+  $("#flip-card.container").click(() => {});
 
   getRandomQuoteFromDB(QUOTES);
 });
