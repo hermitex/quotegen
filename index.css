@@ -1,8 +1,6 @@
 body {
-  background-image: url("./images/personalities/pexels-alex-andrews-3805983.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: blue;
+  transition: all 1s ease-in;
 }
 
 .flip-card {

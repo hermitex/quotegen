@@ -51,7 +51,7 @@ $(document).ready(() => {
   `;
     let ImageUrl = IMAGES[Math.floor(Math.random() * IMAGES.length)].url;
     $("img").src = ImageUrl;
-    $("body").css(`background-image`, `url(${ImageUrl})`);
+    $("body").css(`background-color`, `#${Math.floor(Math.random() * 255)}`);
   };
 
   numberOfQuotes.addEventListener("change", (e) => {
