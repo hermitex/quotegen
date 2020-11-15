@@ -37,7 +37,7 @@ $(document).ready(() => {
       output += `<p>${quotes[randomNum].quote}  <small class='d-block my-0'>-${quotes[randomNum].authorFirstName} ${quotes[randomNum].authorSecondName}</small></p>
     `;
       num--;
-      parentElement.innerHTML = output;
+      parentElement.innerHTML = `${output}<button id="generate-quote" class="p-3 d-block w-auto m-auto">Back</button>`;
     }
   };
 
@@ -55,7 +55,11 @@ $(document).ready(() => {
   };
 
   numberOfQuotes.addEventListener("change", (e) => {
-    displayMultipleQuotes(parseInt(e.target.value), QUOTES);
+    if (parseInt(e.target.value) >= 5) {
+      $(".fade").modal("show");
+    } else {
+      displayMultipleQuotes(parseInt(e.target.value), QUOTES);
+    }
   });
 
   const findQuoteGenre = (genre) => {
